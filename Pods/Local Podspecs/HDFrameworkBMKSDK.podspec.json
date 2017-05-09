@@ -1,0 +1,49 @@
+{
+  "name": "HDFrameworkBMKSDK",
+  "module_name": "HDFrameworkBMKSDK",
+  "version": "0.0.1",
+  "summary": "HDFrameworkBMKSDK",
+  "description": "这个是用到百度地图sdk的一个pod工程,百度地图在该pod工程中",
+  "homepage": "https://github.com/erduoniba",
+  "authors": {
+    "denglibing": "13049862397@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "license": {
+    "type": "MIT"
+  },
+  "source": {
+    "git": "https://github.com/erduoniba/HDFrameworkBMKSDK.git",
+    "tag": "0.0.1"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "subspecs": [
+    {
+      "name": "HDFrameworkBMKSDK",
+      "source_files": "HDFrameworkBMKSDK/*.{h,m,mm}"
+    },
+    {
+      "name": "BaiduMapKit",
+      "vendored_frameworks": "HDFrameworkBMKSDK/BaiduMapKit/*.framework",
+      "vendored_libraries": "HDFrameworkBMKSDK/BaiduMapKit/thirdlibs/*.a",
+      "frameworks": [
+        "CoreLocation",
+        "QuartzCore",
+        "OpenGLES",
+        "SystemConfiguration",
+        "CoreGraphics",
+        "Security",
+        "CoreTelephony"
+      ],
+      "libraries": [
+        "sqlite3.0",
+        "stdc++.6.0.9"
+      ]
+    }
+  ]
+}

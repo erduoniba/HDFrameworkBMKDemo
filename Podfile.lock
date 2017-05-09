@@ -1,0 +1,20 @@
+PODS:
+  - HDFrameworkBMKSDK (0.0.1):
+    - HDFrameworkBMKSDK/BaiduMapKit (= 0.0.1)
+    - HDFrameworkBMKSDK/HDFrameworkBMKSDK (= 0.0.1)
+  - HDFrameworkBMKSDK/BaiduMapKit (0.0.1)
+  - HDFrameworkBMKSDK/HDFrameworkBMKSDK (0.0.1)
+
+DEPENDENCIES:
+  - HDFrameworkBMKSDK (from `/Users/denglibing/Desktop/HDFrameworkBMKSDK/`)
+
+EXTERNAL SOURCES:
+  HDFrameworkBMKSDK:
+    :path: "/Users/denglibing/Desktop/HDFrameworkBMKSDK/"
+
+SPEC CHECKSUMS:
+  HDFrameworkBMKSDK: 71ad74529b827dca094e091930e3c6aa409ee780
+
+PODFILE CHECKSUM: c68c14a155a588507a70b78aad03396555b6d53f
+
+COCOAPODS: 1.2.1

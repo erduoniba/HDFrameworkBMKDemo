@@ -1,0 +1,6 @@
+framework module HDFrameworkBMKSDK {
+  umbrella header "HDFrameworkBMKSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
