@@ -7,8 +7,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'HDFrameworkBMKDemo' do
-    pod 'HDFrameworkBMKSDK', :path => '/Users/denglibing/Desktop/HDFrameworkBMKSDK/'
-    #pod 'HDFrameworkBMKSDK', :git => 'https://github.com/erduoniba/HDFrameworkBMKSDK.git'
+    pod 'HDFrameworkBMKSDK', :git => 'https://github.com/erduoniba/HDFrameworkBMKSDK.git'
 end
 
 #百度地图SDK现在使用的7个framework，为了支持ssl所以还添加了两个.a的静态库，这个时候需要使用如下命令来让cocoapods对静态库支持

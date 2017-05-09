@@ -6,15 +6,20 @@ PODS:
   - HDFrameworkBMKSDK/HDFrameworkBMKSDK (0.0.1)
 
 DEPENDENCIES:
-  - HDFrameworkBMKSDK (from `/Users/denglibing/Desktop/HDFrameworkBMKSDK/`)
+  - HDFrameworkBMKSDK (from `https://github.com/erduoniba/HDFrameworkBMKSDK.git`)
 
 EXTERNAL SOURCES:
   HDFrameworkBMKSDK:
-    :path: "/Users/denglibing/Desktop/HDFrameworkBMKSDK/"
+    :git: https://github.com/erduoniba/HDFrameworkBMKSDK.git
+
+CHECKOUT OPTIONS:
+  HDFrameworkBMKSDK:
+    :commit: e95b5026ef26b532388a4840c2eb759da3f0df7c
+    :git: https://github.com/erduoniba/HDFrameworkBMKSDK.git
 
 SPEC CHECKSUMS:
   HDFrameworkBMKSDK: 71ad74529b827dca094e091930e3c6aa409ee780
 
-PODFILE CHECKSUM: c68c14a155a588507a70b78aad03396555b6d53f
+PODFILE CHECKSUM: 19d7eb6d045227118da62e48208ed680b8f5484f
 
 COCOAPODS: 1.2.1
